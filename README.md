@@ -13,6 +13,8 @@ float score = overview.getNamespaceScore();
 
 ```
 
+If you want to add more metrics, just implement either the interface IMetric for dataelements or INamespaceMetric for namespaces. Place them into the corresponding packages, since the calculator uses reflection to automatically load and apply all metrics found.  
+
 ## Citation
 ```
 @conference {1111,
