@@ -1,5 +1,5 @@
 # metacheck-core
-This project contains a core library to validate metadata quality.
+This project contains a core library to validate metadata quality of Samply.MDR namespaces. 
 
 ## Usage
 
