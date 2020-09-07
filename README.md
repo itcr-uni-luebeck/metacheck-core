@@ -4,7 +4,7 @@ This project contains a core library to validate metadata quality.
 ## Usage
 
 ```sh
-Data data = new Data(url, namespace, language, subjectID, accessToken);
+DataFetcher data = new DataFetcher(url, namespace, language, subjectID, accessToken);
 MetricsCalculator calculator = MetricsCalculator.getCalculator();
 Overview overview = calculator.evaluate(data);
 List<Metric> metrics = overview.getMetrics();
